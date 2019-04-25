@@ -27,7 +27,7 @@
           <p>y: <span id="acc-y"></span></p>
           <p>z: <span id="acc-z"></span></p>
         </div>
-        <div id="accelerationIncludingGravity">
+        <!-- <div id="accelerationIncludingGravity">
           <h2>accelerationIncludingGravity[m/s^2]</h2>
           <p>x: <span id="acc-gx"></span></p>
           <p>y: <span id="acc-gy"></span></p>
@@ -38,7 +38,7 @@
           <p>a: <span id="rr-a"></span></p>
           <p>b: <span id="rr-b"></span></p>
           <p>g: <span id="rr-g"></span></p>
-        </div>
+        </div> -->
       </div>
     </main>
     
@@ -69,13 +69,13 @@
             return Number(obj).toFixed(fix_deg);
           }
           function print3(id1, value1, id2, value2, id3, value3){
-            if (id1 > 5) {
+            if (value1 > 5) {
               print1(id1, 'グー')
             }
-            if (id2 < 5) {
+            if (value1 < 5) {
               print1(id1, 'チョキ')
             }
-            if (id3 < 5) {
+            if (value3 < 5) {
               print1(id1, 'パー')
             }
 
